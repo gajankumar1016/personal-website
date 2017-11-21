@@ -1,7 +1,4 @@
 
-* {
-	text-align:center;
-}
 
 .container-fluid {
 	padding-top: 70px;
@@ -9,6 +6,22 @@
 }
 
 #headshot {
-	width: auto;
-	height: auto:
+	width: 300px;
+	height: 250px;
 }
+
+.bg-1 {
+	background-color: #0b5082;
+	color: #ffffff;
+}
+
+.bg-2 {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.bg-3 {
+	background-color: #13a597;
+	color: #ffffff;
+}
+	
