@@ -21,7 +21,13 @@
 }
 
 .bg-3 {
-	background-color: #13a597;
+	background-color: orangered;
+	color: white;
+}
+
+
+.bg-4 {
+	background-color: beige;
 	color: #ffffff;
 }
 	
