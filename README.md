@@ -1,2 +1,2 @@
 # personal-website
-A website with personal information and relevant links.
+A personal website with info about my projects, courses, etc.
