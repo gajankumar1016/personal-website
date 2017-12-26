@@ -25,9 +25,12 @@
 	color: white;
 }
 
+/*Prevents navbar from hiding content*/
+html {
+	margin-bottom: 60px;
+}
 
-.bg-4 {
-	background-color: beige;
-	color: #ffffff;
+.center-buttons {
+	text-align: center;
 }
 	
