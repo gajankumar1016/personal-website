@@ -11,13 +11,8 @@
 }
 
 .bg-1 {
-	background-color: #0b5082;
-	color: #ffffff;
-}
-
-.bg-2 {
 	background-color: #ffffff;
-	color: #000000;
+	color: #0b5082;
 }
 
 .bg-3 {
@@ -27,10 +22,10 @@
 
 /*Prevents navbar from hiding content*/
 html {
-	margin-bottom: 60px;
+	margin-top: 60px;
 }
 
-.center-buttons {
-	text-align: center;
+.professional-links {
+	margin-right: 20px;
 }
 	
