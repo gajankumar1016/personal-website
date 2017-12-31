@@ -6,8 +6,15 @@
 }
 
 #headshot {
+	margin-top: 50px;
 	width: 300px;
-	height: 250px;
+	height: 350px;
+}
+
+#name-title {
+	font-family: 'Bangers', cursive;
+	font-size:50px;
+	color: #2E77AC;
 }
 
 .bg-1 {
@@ -15,10 +22,11 @@
 	color: #0b5082;
 }
 
-.bg-3 {
-	background-color: orangered;
-	color: white;
+#motto {
+	font-family: 'Bangers', cursive;
+	font-size: 50px;
 }
+
 
 /*Prevents navbar from hiding content*/
 html {
