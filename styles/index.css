@@ -1,8 +1,16 @@
-
+/*Prevents navbar from hiding content*/
+html {
+	margin-top: 60px;
+}
 
 .container-fluid {
 	padding-top: 70px;
 	padding-bottom: 70px;
+}
+
+.bg-1 {
+	background-color: #ffffff;
+	color: #0b5082;
 }
 
 #headshot {
@@ -11,29 +19,23 @@
 	height: 350px;
 }
 
+#motto {
+	font-family: 'Bangers', cursive;
+	font-size: 50px;
+	margin-top:60px;
+}
+
 #name-title {
 	font-family: 'Bangers', cursive;
 	font-size:50px;
 	color: #2E77AC;
 }
 
-.bg-1 {
-	background-color: #ffffff;
-	color: #0b5082;
-}
-
-#motto {
-	font-family: 'Bangers', cursive;
-	font-size: 50px;
-}
-
-
-/*Prevents navbar from hiding content*/
-html {
-	margin-top: 60px;
-}
-
 .professional-links {
 	margin-right: 20px;
+}
+
+#resume-link {
+	font-size: 50px;
 }
 	
