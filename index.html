@@ -16,13 +16,7 @@
 </head>
 
 <body>
-	<div class = "container-fluid bg-1 text-center">
-		<img src="images/Professional_Headshot_20171014094336.jpg" class="img-circle img-responsive center-block" 
-		id="headshot" alt = "Professional headshot of Gajan Kumar">
-		<h3 id="motto">Bold problem solver. Deep thinker. Gets results.</h3>
-	</div>
-	
-	<div class="navbar navbar-inverse navbar-fixed-top">
+	<div id="navbar-id" class="navbar navbar-inverse navbar-fixed-top" style="display: inline-block" role="navigation">
 		<div class="container">
 			<div class="navbar-text pull-left">
 				<p id = "name-title">Gajan Kumar</p>
@@ -36,5 +30,24 @@
 			</div>
 		</div>
 	</div>
+	<div class = "container-fluid bg-1 text-center">
+		<img src="images/Professional_Headshot_20171014094336.jpg" class="img-circle img-responsive center-block" 
+		id="headshot" alt = "Professional headshot of Gajan Kumar">
+		<h3 id="motto">Bold problem solver. Deep thinker. Gets results.</h3>
+	</div>
+
+	<script>
+		//Derived from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		var currentScrollPos = window.pageYOffset;
+			if (prevScrollpos > currentScrollPos) {
+			document.getElementById("navbar-id").style.top = "0";
+			} else {
+			document.getElementById("navbar-id").style.top = "-200px";
+			}
+			prevScrollpos = currentScrollPos;
+		}
+	</script>
 </body>
 </html>

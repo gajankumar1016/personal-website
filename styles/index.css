@@ -4,8 +4,7 @@ html {
 }
 
 .container-fluid {
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 135px;
 }
 
 .bg-1 {
@@ -21,14 +20,15 @@ html {
 
 #motto {
 	font-family: 'Bangers', cursive;
-	font-size: 50px;
+	font-size: 4em;
 	margin-top:60px;
 }
 
 #name-title {
 	font-family: 'Bangers', cursive;
-	font-size:50px;
+	font-size:3em;
 	color: #2E77AC;
+	margin-right: 50px;
 }
 
 .professional-links {
@@ -36,6 +36,6 @@ html {
 }
 
 #resume-link {
-	font-size: 50px;
+	font-size: 3em;
 }
 	
